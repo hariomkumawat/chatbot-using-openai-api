@@ -1,7 +1,7 @@
 import openai
 import gradio
 
-openai.api_key = "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"
+openai.api_key = "your api key"
 
 messages = [{"role":"system","content":"you are a shayar"}]
 def CustomChatGPT(user_input):
